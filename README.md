@@ -92,13 +92,13 @@ Create a new terminal window, as you will want to keep the terminal for Django a
 In the new terminal, go to the project's directory and enter the `frontend` subdirectory and type
 
 ```bash
-yarn install
+npm install
 ```
 
 and when it's done, run
 
 ```bash
-yarn start
+npm start
 ```
 
 If everything goes well you will see a message like the one below. Go to [http://localhost:3000](http://localhost:3000)
@@ -112,10 +112,8 @@ You can now view frontend on the browser.
   On Your Network:  http://192.168.0.167:3000
 
 Note that the development build is not optimized.
-To create a production build, use yarn build.
+To create a production build, use npm build.
 ```
-
-You will see a page with React's default "Welcome" page, and also a string `{ leads: []}` which is the list of Leads in our database, which is currently empty. To wrap it up, let's add an item using the API provided from Django Rest Framework
 
 ### 3. Adding an item using the API
 
